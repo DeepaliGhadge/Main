@@ -1,0 +1,7 @@
+#ReadMe file
+
+#Project Title
+This script if to validate user entered password.
+
+#Usage example:
+#./password-validator1.sh "MyPassword12"
