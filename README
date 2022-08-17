@@ -1,0 +1,7 @@
+#ReadMe file
+
+#Project Title
+This script if to validate password fetched from "password.txt" file.
+
+#Usage example:
+#./feature-password-validator.sh
