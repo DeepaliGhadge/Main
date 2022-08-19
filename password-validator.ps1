@@ -6,45 +6,45 @@ $Password_length = $Entered_Password.Length
 if($Entered_Password -cmatch '[a-z]')     # at least 1 lowercase letter
       {
       $Has_Lowercase=$true
-      Write-host 'Has_Lowercase' $Has_Lowercase
+      #Write-host 'Has_Lowercase' $Has_Lowercase
       }
 else
       {
       $Has_Lowercase=$false
-      Write-host 'Has_Lowercase' $Has_Lowercase
+      #Write-host 'Has_Lowercase' $Has_Lowercase
       }
 
 if($Entered_Password -cmatch '[A-Z]')     # at least 1 uppercase letter
       {
         $Has_Uppercase=$true
-        Write-host 'Has_Uppercase' $Has_Uppercase
+        #Write-host 'Has_Uppercase' $Has_Uppercase
       }
 else
       {
         $Has_Uppercase=$false
-        Write-host 'Has_Uppercase' $Has_Uppercase
+        #Write-host 'Has_Uppercase' $Has_Uppercase
       }
 
 if($Entered_Password -match '[0-9]')       # at least 1 digit
       {
         $Has_Digit=$true
-        Write-host 'Has_Digit' $Has_Digit
+        #Write-host 'Has_Digit' $Has_Digit
       }
 else
      {
        $Has_Digit=$false
-       Write-host 'Has_Digit' $Has_Digit
+       #Write-host 'Has_Digit' $Has_Digit
      }
 
 if($Password_length -ge 10)       # at least 10 character long
     {
        $Valid_Length=$true
-       Write-host 'Valid_Length' $Valid_Length
+       #Write-host 'Valid_Length' $Valid_Length
     }
 else
     {
       $Valid_Length=$false
-      Write-host 'Valid_Length' $Valid_Length
+      #Write-host 'Valid_Length' $Valid_Length
   }
 
 #functions to print Output in color code Green
