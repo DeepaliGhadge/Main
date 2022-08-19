@@ -1,7 +1,7 @@
 #ReadMe file
 
 #Project Title
-This powershell script if to validate password fetched from "password.txt" file.
+This powershell script is to validate password fetched from "password.txt" file.
 
 #Usage example:
-# .\password-validator-from-file.ps1
+# .\password-validator.ps1
